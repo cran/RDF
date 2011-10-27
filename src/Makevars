@@ -1,0 +1,11 @@
+PKG_CPPFLAGS = -I/usr/local/include -I/opt/local/include/raptor2  
+PKG_LIBS = -L/opt/local/lib -lraptor2  
+
+R = ${R_HOME}/bin/R
+
+#RDF: RDF.so
+#	${R} -f ../R/RDF.R
+
+#RDF.so: RDF.o
+#	${R} CMD SHLIB $(CPPFLAGS) $(PKG_CPPFLAGS) -o RDF.so $(PKG_LIBS) RDF.o
+
